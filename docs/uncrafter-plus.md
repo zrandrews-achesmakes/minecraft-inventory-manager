@@ -20,6 +20,60 @@ In Creative, search for “Uncrafter”. With commands enabled, use `/give @s un
 
 For the Stone XP Recycler, use the Stone Uncrafter pattern with a furnace in the center. To upgrade either machine, place the previous tier in the center with redstone dust on its left and right. Put an iron ingot, diamond or netherite ingot above and below for the corresponding upgrade. The crafting recipe book includes all eleven workstations.
 
+## Crafting recipes
+
+Craft each workstation in a crafting table. Each image shows the ingredients in their exact grid positions.
+
+### Uncrafters
+
+#### Stone Uncrafter
+
+![Stone Uncrafter: row 1, column 1 Cobblestone; row 1, column 2 Cobblestone; row 1, column 3 Cobblestone; row 2, column 1 Redstone; row 2, column 2 Crafting Table; row 2, column 3 Redstone; row 3, column 1 Cobblestone; row 3, column 2 Cobblestone; row 3, column 3 Cobblestone](images/recipes/stone_uncrafter.svg)
+
+#### Iron Uncrafter
+
+![Iron Uncrafter: row 1, column 2 Iron Ingot; row 2, column 1 Redstone; row 2, column 2 Stone Uncrafter; row 2, column 3 Redstone; row 3, column 2 Iron Ingot](images/recipes/iron_uncrafter.svg)
+
+#### Diamond Uncrafter
+
+![Diamond Uncrafter: row 1, column 2 Diamond; row 2, column 1 Redstone; row 2, column 2 Iron Uncrafter; row 2, column 3 Redstone; row 3, column 2 Diamond](images/recipes/diamond_uncrafter.svg)
+
+#### Netherite Uncrafter
+
+![Netherite Uncrafter: row 1, column 2 Netherite Ingot; row 2, column 1 Redstone; row 2, column 2 Diamond Uncrafter; row 2, column 3 Redstone; row 3, column 2 Netherite Ingot](images/recipes/netherite_uncrafter.svg)
+
+### XP recyclers
+
+#### Stone XP Recycler
+
+![Stone XP Recycler: row 1, column 1 Cobblestone; row 1, column 2 Cobblestone; row 1, column 3 Cobblestone; row 2, column 1 Redstone; row 2, column 2 Furnace; row 2, column 3 Redstone; row 3, column 1 Cobblestone; row 3, column 2 Cobblestone; row 3, column 3 Cobblestone](images/recipes/stone_xp_recycler.svg)
+
+#### Iron XP Recycler
+
+![Iron XP Recycler: row 1, column 2 Iron Ingot; row 2, column 1 Redstone; row 2, column 2 Stone XP Recycler; row 2, column 3 Redstone; row 3, column 2 Iron Ingot](images/recipes/iron_xp_recycler.svg)
+
+#### Diamond XP Recycler
+
+![Diamond XP Recycler: row 1, column 2 Diamond; row 2, column 1 Redstone; row 2, column 2 Iron XP Recycler; row 2, column 3 Redstone; row 3, column 2 Diamond](images/recipes/diamond_xp_recycler.svg)
+
+#### Netherite XP Recycler
+
+![Netherite XP Recycler: row 1, column 2 Netherite Ingot; row 2, column 1 Redstone; row 2, column 2 Diamond XP Recycler; row 2, column 3 Redstone; row 3, column 2 Netherite Ingot](images/recipes/netherite_xp_recycler.svg)
+
+### Other workstations
+
+#### Glitched Uncrafter
+
+![Glitched Uncrafter: row 1, column 2 Popped Chorus Fruit; row 2, column 1 Ender Pearl; row 2, column 2 Diamond Uncrafter; row 2, column 3 Ender Pearl; row 3, column 2 Redstone Block](images/recipes/glitched_uncrafter.svg)
+
+#### Unenchanter
+
+![Unenchanter: row 1, column 2 Book; row 2, column 1 Lapis Lazuli; row 2, column 2 Grindstone; row 2, column 3 Lapis Lazuli; row 3, column 2 Iron Ingot](images/recipes/unenchanter.svg)
+
+#### Recipe Storage
+
+![Recipe Storage: row 1, column 1 Iron Ingot; row 1, column 2 Redstone; row 1, column 3 Iron Ingot; row 2, column 1 Stone Button; row 2, column 2 Iron Uncrafter; row 2, column 3 Crafting Table; row 3, column 1 Iron Ingot; row 3, column 2 Redstone; row 3, column 3 Iron Ingot](images/recipes/recipe_storage.svg)
+
 ### Hoppers and collection
 
 Point a hopper into the top or side of a processing station. Hopper inputs accumulate in a single slot until enough items exist for one batch. At 20 ticks per second, the four tiers check buffered input every 2, 1, 0.5 and 0.25 seconds. A Glitched Uncrafter needs stored charges for hopper processing. Empty-hand use retrieves a stalled input. Breaking a station releases its buffered items.
