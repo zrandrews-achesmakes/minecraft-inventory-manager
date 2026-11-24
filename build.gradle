@@ -10,9 +10,11 @@ base {
 }
 
 loom {
+	splitEnvironmentSourceSets()
 	mods {
 		"invmanager" {
 			sourceSet sourceSets.main
+			sourceSet sourceSets.client
 		}
 	}
 }
@@ -23,6 +25,7 @@ fabricApi {
 		createSourceSet = true
 		modId = "invmanager-test"
 		enableGameTests = true
+		enableClientGameTests = project.hasProperty('clientSmoke')
 		eula = true // By setting this to true, you agree to the Minecraft EULA: https://aka.ms/MinecraftEULA
 	}
 }
@@ -31,6 +34,8 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	gametestImplementation 'net.fabricmc.fabric-api:fabric-gametest-api-v1:4.0.36+3434d6d95d'
+	gametestImplementation 'net.fabricmc.fabric-api:fabric-client-gametest-api-v1:6.0.12+131f8d475d'
 }
 
 processResources {

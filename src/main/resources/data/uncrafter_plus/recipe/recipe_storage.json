@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "IRI",
+    "BCS",
+    "IRI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone",
+    "B": "minecraft:stone_button",
+    "C": "uncrafter_plus:iron_uncrafter",
+    "S": "minecraft:crafting_table"
+  },
+  "result": {
+    "id": "uncrafter_plus:recipe_storage"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "uncrafter_plus:block/unenchanter_top",
+    "side": "uncrafter_plus:block/unenchanter_side",
+    "bottom": "minecraft:block/smooth_stone"
+  }
+}

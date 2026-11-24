@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "CCC",
+    "RBR",
+    "CCC"
+  ],
+  "key": {
+    "C": "minecraft:cobblestone",
+    "R": "minecraft:redstone",
+    "B": "minecraft:crafting_table"
+  },
+  "result": {
+    "id": "uncrafter_plus:stone_uncrafter"
+  }
+}

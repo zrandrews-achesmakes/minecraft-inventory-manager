@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " C ",
+    "RBR",
+    " C "
+  ],
+  "key": {
+    "C": "minecraft:iron_ingot",
+    "R": "minecraft:redstone",
+    "B": "uncrafter_plus:stone_xp_recycler"
+  },
+  "result": {
+    "id": "uncrafter_plus:iron_xp_recycler"
+  }
+}

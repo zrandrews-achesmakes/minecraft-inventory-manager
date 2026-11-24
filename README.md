@@ -30,6 +30,10 @@ Unopened loot chests get their loot generated first, just as if you opened them.
 
 New players get **1 Sorter + 3 Hot Deposit** the first time they join, as in the Bedrock add-on.
 
+### Uncrafter Plus workstations
+
+Recover crafting materials, turn spare items into XP, and extract enchantments into books. The eleven stations include four tiers each of Uncrafter and XP Recycler, the Glitched Uncrafter, the Unenchanter and Recipe Storage. They work with hopper inputs and a collection chest underneath. [Workstation recipes and player guide](docs/uncrafter-plus.md)
+
 ### Recipes
 - Sorter: iron ingot over redstone over stick (vertical line).
 - Hot Deposit: planks around a chest, with a hopper in the top middle.
@@ -44,13 +48,14 @@ New players get **1 Sorter + 3 Hot Deposit** the first time they join, as in the
 | `punchCooldownTicks` | 8 | Delay between punches (holding attack doesn't spam) |
 
 ## Install
-Put `inventory-manager-1.0.0.jar` in the server's `mods` folder **and** in each player's
-`%appdata%\.minecraft\mods` (it adds an item and a block, so clients need it too, the same as Airships).
+Install `inventory-manager-1.1.0.jar` with Fabric API for Minecraft Java 26.3 on the server and each client. Use Java 25 and Fabric Loader 0.20.1 or later.
+
+When upgrading, replace the old Inventory Manager JAR. If you installed the standalone Uncrafter Plus JAR, remove that JAR in the same upgrade. The combined mod uses the same `uncrafter_plus` IDs for existing workstations and items.
 
 ## Build & test
 - `gradlew build`: compile and make the jar (`build/libs/`), runs the game tests too.
-- `gradlew runGameTest`: 12 headless server tests (`src/gametest`): sorting modes, merging, double chests,
-  the Sorter on blocks/donkeys/the air, mode cycling, Hot Deposit, and sneak-to-break.
+- `gradlew runGameTest` runs the server tests for inventory sorting, Hot Deposit and Uncrafter Plus.
+- `gradlew -PclientSmoke runClientGameTest` checks workstation models and block synchronization in a temporary singleplayer world.
 
 ## Known limits
 - Chests on a flying airship are part of the ship entity, not real blocks, so the Sorter and Hot Deposit
