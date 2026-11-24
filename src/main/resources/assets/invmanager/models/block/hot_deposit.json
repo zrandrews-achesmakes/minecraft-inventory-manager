@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "invmanager:block/hot_deposit_top",
+    "side": "invmanager:block/hot_deposit_side",
+    "bottom": "invmanager:block/hot_deposit_bottom"
+  }
+}

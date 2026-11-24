@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "#minecraft:planks",
+    "H": "minecraft:hopper",
+    "C": "minecraft:chest"
+  },
+  "pattern": [
+    "PHP",
+    "PCP",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "invmanager:hot_deposit"
+  }
+}

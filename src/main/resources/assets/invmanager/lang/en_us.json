@@ -1,0 +1,18 @@
+{
+	"item.invmanager.sorter": "Sorter",
+	"block.invmanager.hot_deposit": "Hot Deposit",
+	"sortmode.invmanager.generic": "Generic",
+	"sortmode.invmanager.alphabetical": "Alphabetical",
+	"sortmode.invmanager.color": "Color",
+	"tooltip.invmanager.sorter.mode": "Mode: %s",
+	"tooltip.invmanager.sorter.line1": "Click a chest, barrel, shulker box or chested mob to sort it",
+	"tooltip.invmanager.sorter.line2": "Right-click the air to sort your inventory",
+	"tooltip.invmanager.sorter.line3": "Sneak + right-click the air to change mode",
+	"message.invmanager.mode": "Sort mode: %s",
+	"message.invmanager.sorted.container": "Sorted (%s)",
+	"message.invmanager.sorted.inventory": "Inventory sorted (%s)",
+	"message.invmanager.locked": "That container is locked",
+	"message.invmanager.deposit.done": "Deposited %s items into %s containers",
+	"message.invmanager.deposit.nothing": "Nothing to deposit: no nearby container holds those items",
+	"message.invmanager.deposit.no_containers": "No chests, barrels or shulker boxes within %s blocks"
+}

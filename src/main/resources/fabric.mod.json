@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "invmanager",
+	"version": "${version}",
+	"name": "Inventory Manager",
+	"description": "Sort chests, shulker boxes, barrels, chested mobs and your own inventory with the Sorter (generic, alphabetical or color), and hot-deposit items into nearby chests. Inspired by Mythicus' Inventory Manager (Lite) for Bedrock.",
+	"authors": ["zrandrews"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["io.github.zrandrews.invmanager.InvManagerMod"]
+	},
+	"mixins": ["invmanager.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

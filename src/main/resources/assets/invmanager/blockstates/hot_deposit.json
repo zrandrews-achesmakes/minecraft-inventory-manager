@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "invmanager:block/hot_deposit" }
+  }
+}
