@@ -2,6 +2,10 @@
 
 Included with Inventory Manager 1.1.0 for Minecraft Java 26.3. [Installation and upgrade instructions](../README.md#install)
 
+The workstations use original pixel textures with timber, metal, teal and gold details. Each family has its own symbol, and the material accents identify its tier. The block item uses the same model as the placed workstation.
+
+![Concept art for the Uncrafter workstation, showing a timber and teal metal machine with a golden reverse-crafting symbol](images/uncrafter-art-concept.png)
+
 ## First batch
 
 Craft a **Stone Uncrafter** at a crafting table. Fill the top and bottom rows with cobblestone. In the middle row, place redstone dust, a crafting table and redstone dust. Place the station on top of a chest, then right-click it with **six oak slabs**. The chest receives **three oak planks**. Five slabs stay in your hand until you have a complete batch.

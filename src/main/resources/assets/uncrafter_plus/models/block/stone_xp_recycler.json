@@ -3,6 +3,6 @@
   "textures": {
     "top": "uncrafter_plus:block/stone_xp_recycler_top",
     "side": "uncrafter_plus:block/stone_xp_recycler_side",
-    "bottom": "minecraft:block/smooth_stone"
+    "bottom": "uncrafter_plus:block/stone_xp_recycler_side"
   }
 }

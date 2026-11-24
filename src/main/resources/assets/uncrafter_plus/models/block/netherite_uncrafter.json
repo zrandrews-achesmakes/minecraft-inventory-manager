@@ -3,6 +3,6 @@
   "textures": {
     "top": "uncrafter_plus:block/netherite_uncrafter_top",
     "side": "uncrafter_plus:block/netherite_uncrafter_side",
-    "bottom": "minecraft:block/smooth_stone"
+    "bottom": "uncrafter_plus:block/netherite_uncrafter_side"
   }
 }
