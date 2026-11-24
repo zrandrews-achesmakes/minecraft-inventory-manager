@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "uncrafter_plus:block/netherite_xp_recycler_top",
+    "side": "uncrafter_plus:block/netherite_xp_recycler_side",
+    "bottom": "minecraft:block/smooth_stone"
+  }
+}

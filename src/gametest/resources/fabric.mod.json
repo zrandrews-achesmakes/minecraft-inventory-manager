@@ -5,7 +5,8 @@
 	"name": "Inventory Manager tests",
 	"environment": "*",
 	"entrypoints": {
-		"fabric-gametest": ["io.github.zrandrews.invmanager.test.InvManagerGameTest"]
+		"fabric-gametest": ["io.github.zrandrews.invmanager.test.InvManagerGameTest", "dev.uncrafter.StationTests"],
+		"fabric-client-gametest": ["dev.uncrafter.ClientModelsTest"]
 	},
 	"depends": {
 		"invmanager": "*"

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "uncrafter_plus:diamond_xp_recycler"
+          }
+        ]
+      }
+    },
+    "unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "uncrafter_plus:netherite_xp_recycler"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "material",
+      "unlocked"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "uncrafter_plus:netherite_xp_recycler"
+    ]
+  }
+}

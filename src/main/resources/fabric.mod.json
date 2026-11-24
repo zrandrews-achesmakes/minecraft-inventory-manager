@@ -3,14 +3,15 @@
 	"id": "invmanager",
 	"version": "${version}",
 	"name": "Inventory Manager",
-	"description": "Sort chests, shulker boxes, barrels, chested mobs and your own inventory with the Sorter (generic, alphabetical or color), and hot-deposit items into nearby chests. Inspired by Mythicus' Inventory Manager (Lite) for Bedrock.",
+	"description": "Sort inventories, deposit items into nearby storage, and recover materials, enchantments and XP at eleven Uncrafter Plus workstations.",
 	"authors": ["zrandrews"],
 	"license": "MIT",
 	"environment": "*",
 	"entrypoints": {
-		"main": ["io.github.zrandrews.invmanager.InvManagerMod"]
+		"main": ["io.github.zrandrews.invmanager.InvManagerMod", "dev.uncrafter.UncrafterPlus"]
 	},
 	"mixins": ["invmanager.mixins.json"],
+	"breaks": { "uncrafter_plus": "*" },
 	"depends": {
 		"fabricloader": ">=0.20.1",
 		"minecraft": "~26.3",

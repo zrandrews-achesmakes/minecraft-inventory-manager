@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_button"
+          }
+        ]
+      }
+    },
+    "unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "uncrafter_plus:recipe_storage"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "material",
+      "unlocked"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "uncrafter_plus:recipe_storage"
+    ]
+  }
+}
